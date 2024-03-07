@@ -1,0 +1,118 @@
+:root {
+    --nom: #2077B2; /* Nominative - Light Blue */
+    --acc: #1B84CC; /* Accusative - Slightly darker Blue */
+  
+    --gen: #77B300; /* Genitive - Lime Green */
+    --dat: #9CCC00; /* Dative - Lighter Lime Green */
+  
+    --ins: #F09857; /* Instrumental - Light Orange */
+    --abl: #F5A677; /* Ablative - Slightly darker Orange */
+  
+    --loc: #C27BA0; /* Locative - Light Purple */
+    --voc: #D289A1; /* Vocative - Slightly darker Purple */
+  }
+  
+  
+  body {
+    padding: 20px;
+    font-family: Helvetica;
+  }
+  
+  .wrapper-whole {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .pali {
+    text-align: center;
+    background-color: #6C5B7B;
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+  .spanish {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+  .pali-nominative{
+    text-align: center;
+    background-color: var(--nom);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-vocative{
+    text-align: center;
+    background-color: var(--voc);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-accusative{
+    text-align: center;
+    background-color: var(--acc);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-instrumental{
+    text-align: center;
+    background-color: var(--ins);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-ablative{
+    text-align: center;
+    background-color: var(--abl);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-genitive{
+    text-align: center;
+    background-color: var(--gen);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-dative{
+    text-align: center;
+    background-color: var(--dat);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
+  .pali-locative{
+    text-align: center;
+    background-color: var(--loc);
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    }
